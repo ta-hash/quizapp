@@ -19,10 +19,10 @@ alert("q1 answer right")
    var question3= document.getElementById("q-4") 
    if(right2.checked == true){
        score ++
-       alert("q2 is right")
+       alert("q2 Answer right")
    }
     else{
-        alert("q2 is wrong")
+        alert("q2 Answer wrong")
     }
 
 
@@ -30,11 +30,16 @@ alert("q1 answer right")
 
 
     var right3 = document.getElementById("q-1");
+    var question1 = document.getElementById("q-1") ;
+    var question2 = document.getElementById("q-2") 
+    var question3= document.getElementById("q-4") 
     if(right3.checked == true){
+        score ++
         alert("q3 is right")
 
     }
 else{
     alert("q3 is wrong")
 }
+alert("your score is"+ score)
 }  
